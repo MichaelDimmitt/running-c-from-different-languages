@@ -4,10 +4,19 @@ nif in elixir with no fault tolerance<br/>
 
 bash command to run if erlang was installed with homebrew<br/>
 ```bash
-cc -fPIC -I /usr/local/lib/erlang/erts-11.0.3/include/      -dynamiclib -undefined dynamic_lookup      -o fast_compare.so fast_compare.c
+cc -fPIC -I /usr/local/lib/erlang/erts-11.0.3/include/
+	-dynamiclib -undefined dynamic_lookup      
+	-o fast_compare.so fast_compare.c
 ```
+
+to run the program simply execute 
+```bash
+elixir runner.exs 
+```
+
+
 https://andrealeopardi.com/posts/using-c-from-elixir-with-nifs/<br/>
-code link1:
+code link1:<br/>
 code link2: https://github.com/SweetIQ/expostal
 
 
@@ -25,5 +34,5 @@ code link1:<br/>
 code link2: https://github.com/md-vanilla/simp-js_term<br/>
 
 #Rust
-writing NIF's in rust
-https://github.com/rusterlium/rustler
+writing NIF's in rust<br/>
+https://github.com/rusterlium/rustler<br/>
