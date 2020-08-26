@@ -1,8 +1,15 @@
 
 # Elixir
 nif in elixir with no fault tolerance<br/>
+
+bash command to run if erlang was installed with homebrew<br/>
+```bash
+cc -fPIC -I /usr/local/lib/erlang/erts-11.0.3/include/      -dynamiclib -undefined dynamic_lookup      -o fast_compare.so fast_compare.c
+```
 https://andrealeopardi.com/posts/using-c-from-elixir-with-nifs/<br/>
-code link:
+code link1:
+code link2: https://github.com/SweetIQ/expostal
+
 
 # Javascript / Node
 Not exactly c, running C++ program with drivers from node to v8 engine.<br/>
@@ -17,3 +24,6 @@ Unsecure alternative - Child Process<br/>
 code link1:<br/>
 code link2: https://github.com/md-vanilla/simp-js_term<br/>
 
+#Rust
+writing NIF's in rust
+https://github.com/rusterlium/rustler
