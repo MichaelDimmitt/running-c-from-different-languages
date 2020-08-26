@@ -11,6 +11,7 @@ cc -fPIC -I /usr/local/lib/erlang/erts-11.0.3/include/
 
 to run the program simply execute 
 ```bash
+cd elixir;
 elixir runner.exs 
 ```
 
@@ -36,3 +37,6 @@ code link2: https://github.com/md-vanilla/simp-js_term<br/>
 #Rust
 writing NIF's in rust<br/>
 https://github.com/rusterlium/rustler<br/>
+
+#Go
+link: https://karthikkaranth.me/blog/calling-c-code-from-go/
